@@ -42,4 +42,4 @@ async def 구매완료(interaction: discord.Interaction, 상품: str, 사용자:
         await interaction.response.send_message("❌ 채널을 찾을 수 없습니다. 관리자에게 문의하세요.", ephemeral=True)
 
 # 봇 실행 (토큰 입력 필요)
-bot.run("MTMzNzY0OTUzOTg4ODE4NTM3NQ.Gs3gZI.H-CdXF2oV_4d6xvUwUvk77r6GSDU62IFPKltAs")
+bot.run("token")
